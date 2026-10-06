@@ -22,7 +22,7 @@ Not yet installed: Claude Code, PostgreSQL, Docker. Each gets added here when it
 ## Open items
 
 - `brew doctor` warns a newer Command Line Tools release is available. Fix: System Settings → General → Software Update. Not blocking.
-- Three Pythons exist on this machine: Apple's (`/usr/bin/python3`), Homebrew's (`/opt/homebrew/bin/python3`, 3.14), and one at `/Library/Frameworks/Python.framework/Versions/3.14/bin` (the python.org installer location — origin unconfirmed). Homebrew's wins because it's first in PATH. Revisit if a tool ever picks the wrong one.
+- Three Pythons exist on this machine: Apple's (`/usr/bin/python3`), Homebrew's (`/opt/homebrew/bin/python3`, 3.14), and one at `/Library/Frameworks/Python.framework/Versions/3.14/bin` (the python.org installer location — origin installed from python.org earlier; Homebrew's takes precedence). Homebrew's wins because it's first in PATH. Revisit if a tool ever picks the wrong one.
 - Python 3.14 is very new. If a library refuses to install on it, install an older Python alongside (`brew install python@3.12`) and use that for the project. Decide per project, not globally.
 
 ## PATH on this machine
